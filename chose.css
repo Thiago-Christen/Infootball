@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background:url(/Infootball/imagens/fundo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background:rgba(39, 39, 39, 0.311) ;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px black;
+    width: 550px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.container img{
+    position: relative;
+    left: 140px;
+    width: 150px;
+    margin-bottom: 24px;
+}
+
+
+h2{
+    color: #cccccc;
+    text-align: center;
+    font-size:larger    ;
+    margin-bottom: 30px;
+}
+
+
+.button{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    left: 65px;
+    padding: 12px; 
+    border: none;
+    border-radius: 5px;
+    background: #066725;
+    color: #cccccc;
+    font-size: 16px; 
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
