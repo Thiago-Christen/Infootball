@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(./sections/section_slider.css);
+@import url(./sections/section_desempenho.css);
+@import url(./sections/section_treinos.css);
+@import url(./sections/section_sobre.css);
+@import url(./sections/section_escolinha.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+
+    font-size: 1.1rem;
+    color: #fff;
+
+    background-color: rgba(0, 85, 0);
+    height: 15%;
+    width: 100%;
+    box-shadow: 6px 0 10px rgba(0,0,0,0.8);
+    border-radius: 0 0 15px 15px;
+    z-index: 1000;
+}
+
+nav img {
+    position: relative;
+
+    height: 4em;
+    left: 1rem;
+    top: 0;
+
+    transition: transform 0.3s ease;
+}
+
+nav img:hover{
+    transform: scale(1.1);
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-right: 2rem;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a i {
+    position: relative;
+    top: -5px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    position: relative;
+    font-size: 2em;
+    padding-left: 3.5rem
+}
+
+nav ul li a i:hover {
+    color: #9fff00ad;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+    color: #9fff00ad;
+}
+
+.chat-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2E7D32 ;
+    color: white;
+    border: none ;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.chat-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.chat-body {
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+}
+.chat-footer {
+    padding: 10px;
+    display: flex;
+}
+.chat-footer input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.chat-footer button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.notificacao-painel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+}
+
+.notificacao-painel.ativo {
+    right: 0;
+}
+
+.notificacao-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 85, 0);
+    color: #fff;
+    font-weight: bold;
+}
+
+.notificacoes-lista {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.notificacoes-lista li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+

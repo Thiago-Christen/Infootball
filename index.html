@@ -1,31 +1,241 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infootball</title>
-    <link rel="icon" href="./logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/global/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/index/style.css">
 
     <!-- Font Awesome correta -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav>
+            <a href="#inicio"><img src="./img/global/logo.png" alt="Ícone do Infootball"></a>
             <ul>
-                <li><img src="logo.png" alt="Ícone do Infootball"></li>
-                <li>Treino</li>
-                <li>Desempenho</li>
-                <li>Escolinha</li>
-                <li>Sobre Nós</li>
-                <li><i class="fa-solid fa-bell" style="color: #ffffff;"></i></li>
+                <li><a href="#treino">Treino</a></li>
+                <li><a href="#desempenho">Desempenho</a></li>
+                <li><a href="#escolinha">Escolinha</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="slide_de_avisos">
-        <!-- Conteúdo aqui -->
+    <section id="inicio">
+        <div class="slider">
+            <div class="slides">
+                <img src="./img/pages/index/img_slide_1.png" class="slide" alt="Imagem 1">
+                <img src="./img/pages/index/img_slide_2.png" class="slide" alt="Imagem 2">
+                <img src="./img/pages/index/img_slide_3.png" class="slide" alt="Imagem 3">
+            </div>
+            <div class="navigation">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
     </section>
+
+    <section id="treino">
+        <div class="calendario">
+            <div class="titulo">JUNHO</div>
+            <div class="dia" style="text-align: center;">DOM</div>
+            <div class="dia" style="text-align: center;">SEG</div>
+            <div class="dia" style="text-align: center;">TER</div>
+            <div class="dia" style="text-align: center;">QUA</div>
+            <div class="dia" style="text-align: center;">QUI</div>
+            <div class="dia" style="text-align: center;">SEX</div>
+            <div class="dia" style="text-align: center;">SÁB</div>
+            <div class="dia">1</div>
+            <div class="dia">2 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">3 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">4 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">5 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">6 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">7</div>
+            <div class="dia">8</div>
+            <div class="dia">9 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">10 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">11 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">12 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">13 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">14</div>
+            <div class="dia">15</div>
+            <div class="dia">16 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">17 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">18 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">19 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">20 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">21</div>
+            <div class="dia">22</div>
+            <div class="dia">23 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">24 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">25 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">26 <p>Treino Sub-13</p>
+            </div>
+            <div class="dia">27 <p>Treino Sub-17</p>
+            </div>
+            <div class="dia">28</div>
+            <div class="dia">29</div>
+            <div class="dia">30 <p>Treino Sub-17</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="desempenho">
+        <button class="pesquisa-button">🔍︎</button>
+
+        <div class="pesquisa">
+            <input type="search" placeholder="Pesquise o nome do atleta">
+        </div>
+
+        <div class="desempenho">
+            <div class="aluno">
+                <img src="./img/pages/index/teste.jpg" alt="">
+                <h1>Aluno</h1>
+                <h2>Sub-17</h2>
+                <p style="text-align: left;">Idade: 18 anos <br> Pé dominante: direito <br> Gols: 50</p>
+            </div>
+            <div class="aluno">
+                <img src="./img/pages/index/teste.jpg" alt="">
+                <h1>Aluno</h1>
+                <h2>Sub-17</h2>
+                <p style="text-align: left;">Idade: 18 anos <br> Pé dominante: direito <br> Gols: 50</p>
+            </div>
+            <div class="aluno">
+                <img src="./img/pages/index/teste.jpg" alt="">
+                <h1>Aluno</h1>
+                <h2>Sub-17</h2>
+                <p style="text-align: left;">Idade: 18 anos <br> Pé dominante: direito <br> Gols: 50</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="escolinha">
+        <div class="abas">
+            <div class="botoes-abas">
+                <button class="aba ativa" onclick="abrirAba(event, 'equipe')">Equipe</button>
+                <button class="aba" onclick="abrirAba(event, 'professores')">Professores</button>
+                <button class="aba" onclick="abrirAba(event, 'sub13')">Sub-13</button>
+                <button class="aba" onclick="abrirAba(event, 'sub17')">Sub-17</button>
+            </div>
+
+            <div id="equipe" class="conteudo-aba ativo">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Categoria</th>
+                            <th>Papel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Professores -->
+                        <tr>
+                            <td>Rodrigo Melo</td>
+                            <td>Técnico</td>
+                            <td>Professor</td>
+                        </tr>
+                        <tr>
+                            <td>Luciana Costa</td>
+                            <td>Técnico</td>
+                            <td>Preparadora Física</td>
+                        </tr>
+
+                        <!-- Sub-13 -->
+                        <tr>
+                            <td>Thiago</td>
+                            <td>Sub-13</td>
+                            <td>Aluno</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sub-13</td>
+                            <td>Aluno</td>
+                        </tr>
+
+                        <!-- Sub-17 -->
+                        <tr>
+                            <td>Lucas</td>
+                            <td>Sub-17</td>
+                            <td>Aluno</td>
+                        </tr>
+                        <tr>
+                            <td>Felipe</td>
+                            <td>Sub-17</td>
+                            <td>Aluno</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container-sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                O <strong>Infootball</strong> nasceu com a missão de apoiar escolinhas de futebol no desenvolvimento
+                técnico e pessoal dos atletas.
+                Reunimos ferramentas para organizar treinos, acompanhar o desempenho dos jogadores e manter a
+                comunicação entre treinadores, atletas e responsáveis.
+            </p>
+            <p>
+                Acreditamos no esporte como ferramenta de transformação social e trabalhamos para tornar o processo de
+                formação mais eficiente, acessível e moderno.
+            </p>
+        </div>
+    </section>
+
+    <button class="chat-button" onclick="toggleChat()">🗨️​</button>
+    <div class="chat-popup" id="chatPopup">
+        <div class="chat-header">Chat com os professores</div>
+        <div class="chat-body">
+            <p style="text-align: center;">Bem-vindo ao chat!</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Digite sua mensagem...">
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+
+    <div id="notificacaoPainel" class="notificacao-painel">
+        <div class="notificacao-cabecalho">
+            <h3>Notificações</h3>
+            <button onclick="fecharNotificacoes()">✖️</button>
+        </div>
+        <ul class="notificacoes-lista">
+            <li>Treino Sub-17 dia 5 adicionado.</li>
+            <li>Pedro foi inscrito no Sub-13.</li>
+            <li>Luciana atualizou o calendário.</li>
+        </ul>
+    </div>
+
+    <script src="./assets/js/index/chat.js"></script>
+    <script src="./assets/js/index/index.js"></script>
+    <script src="./assets/js/index/notification.js"></script>
 </body>
+
 </html>

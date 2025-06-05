@@ -6,12 +6,13 @@
 }
 
 body{
-    background:url(/Infootball/imagens/fundo.jpg) ;
+    background: url(../../../img/global/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .container{
@@ -26,14 +27,15 @@ body{
 
 .container img{
     position: relative;
-    left: 165px;
-    width: 100px;
-    margin-bottom: 24px;
+    left: 3.5em;
+    width: 75%;
+    margin-bottom: 25px;
 }
 
-.form-group{
-    margin-bottom: 15px;
-    position: relative;
+.input-field{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 input::placeholder{
@@ -41,16 +43,18 @@ input::placeholder{
     font-size: small;
 }
 
-.form-group input {
+
+.input-field input {
+    color: white;
     width: 70%;
-    position: relative;
-    left: 65px;
-    padding: 10px 40px;
+    padding: 12px; 
+    background: transparent;
+    color: #ffffff;
     border: solid white;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.025);
+    font-size: 16px; 
+    outline: none;
     margin-bottom: 20px;
-    color: white;
 }
 
 .form-group .icon{
@@ -70,7 +74,7 @@ input::placeholder{
     padding: 12px; 
     border: none;
     border-radius: 5px;
-    background: #cccccc;
+    background: #ffffff;
     color: #066725;
     font-size: 16px; 
     font-weight: bold;
@@ -87,15 +91,13 @@ input::placeholder{
     border: none;
     border-radius: 5px;
     background: #066725;
-    color: #cccccc;
+    color: #ffffff;
     font-size: 16px; 
     font-weight: bold;
     margin-top: 10px; 
     margin-bottom: 16px;
     text-decoration: none;
 }
-
-
 
 
 

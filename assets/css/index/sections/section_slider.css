@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    top: 12em;
+    height: 90%;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* 100% * número de slides */
+  }
+  
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+  .navigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 5px;
+  }
+  
+  .navigation button {
+    background: rgba(0, 85, 0);
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s;
+    width: 2em;
+  }
+  
+  .navigation button:hover {
+    background: rgb(1, 132, 1);
+    box-shadow: 1px 2px 20px 3px rgba(1, 132, 1, 0.5);
+    color: #fff;
+  }
+  

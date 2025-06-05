@@ -1,0 +1,91 @@
+.pesquisa{
+    background-color: #2E7D32;
+    border: 0.2em solid #2E7D32;
+    padding: 2px;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 18%;
+    margin-top: 8em;
+    margin-bottom: 1rem;
+    top: 0.3rem;
+    
+}
+
+.pesquisa input{
+    border: none;
+    padding: 13px;
+    border-radius: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.pesquisa ::placeholder {
+    color: #4caf50;
+}
+
+.pesquisa-button{
+    position: absolute;
+    left: 13%;
+    background-color: white;
+    color: #4caf50;
+    font-size: 24px;
+    border: solid 5px #2E7D32;
+    padding: 10px 15px; 
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.desempenho{
+    display: grid;
+    position: relative;
+    left: 9%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.aluno{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: #2E7D32;
+    width: 100%;
+    text-align:center;
+}
+
+.aluno img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 2px 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+.aluno h1,h2{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    box-shadow: 1px 2px 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+.aluno p {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background:url(../../../img/global/background.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background:rgba(39, 39, 39, 0.311) ;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px black;
+    width: 550px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.container img{
+    position: relative;
+    left: 3.5em;
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input::placeholder{
+    color: white;
+    font-size: small;
+}
+
+.form-group input {
+    position: relative;
+    left: 65px;
+    padding: 10px 40px;
+    width: 70%; 
+    background: transparent;
+    color: #ffffff;
+    border: solid white;
+    border-radius: 5px;
+    font-size: 16px; 
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-group .icon{
+    position: absolute;
+    color: white;
+    top: 12px;
+    left: 80px;
+    width: 20px;
+    height: 20px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin: -15px 65px 20px 0;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: none;
+    color: #55ff8b;
+}
+
+.button{
+    margin-bottom: 16px;
+    width: 70%;
+    position: relative; 
+    left: 65px;
+    padding: 12px; 
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #066725;
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+
+
+
+

@@ -6,7 +6,7 @@
 }
 
 body{
-    background:url(/Infootball/imagens/fundo.jpg) ;
+    background:url(../../../img/global/background.png) ;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -26,14 +26,14 @@ body{
 
 .container img{
     position: relative;
-    left: 140px;
-    width: 150px;
-    margin-bottom: 24px;
+    left: 3.5em;
+    width: 75%;
+    margin-bottom: 25px;
 }
 
 
 h2{
-    color: #cccccc;
+    color: #ffffff;
     text-align: center;
     font-size:larger    ;
     margin-bottom: 30px;
@@ -50,7 +50,7 @@ h2{
     border: none;
     border-radius: 5px;
     background: #066725;
-    color: #cccccc;
+    color: #ffffff;
     font-size: 16px; 
     font-weight: bold;
     margin-top: 10px; 
